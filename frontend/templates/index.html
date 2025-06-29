@@ -1,0 +1,1643 @@
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ShineInfo Placements Solutions</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+  {% render_block "css" %}
+  <!-- =======================================================
+  * Template Name: eBusiness
+  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+  * Updated: Jun 23 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+  {% cms_toolbar %}
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+         <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751203145/Logo_vngjgx.png">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#portfolio">Mission & Vision</a></li>
+          <li><a href="#team"> Industries We Serve</a></li>
+          <li class=""><a href="#alt-services2"><span>Our Recruitment Process</span> <i class="bi "></i></a>
+            <!-- <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul> -->
+          </li>
+          <li><a href="#clients">Our Clients</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <h2>Welcome to Shineinfo Placement Solutions </h2>
+              <p>At Shineinfo Placements Solutions, we offer a range of
+                  staffing solutions designed to meet the unique needs of
+                  both employers and job seekers. Our services include
+                  recruitment, talent acquisition, and workforce management,
+                  all tailored to enhance productivity and growth. Trust our
+                  expert team to connect you with top talent or promising
+                  opportunities, ensuring a seamless and successful
+                  experience</p>
+              <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
+                <a href="#services" class="btn btn-outline">Our Services</a>
+              </div>
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <h3><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>+</h3>
+                  <p>
+                    Years Experience
+                  </p>
+                </div>
+                <div class="stat-item">
+                  <h3><span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>+</h3>
+                  <p>Clients Worldwide</p>
+                </div>
+                <div class="stat-item">
+                  <h3><span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>%</h3>
+                  <p>Success Rate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="https://res.cloudinary.com/dhf7l1qte/image/upload/v1751122743/13569_wbpx8r.jpg" alt="Consulting Services" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+        <p>We specialize in connecting top talent with leading organizations across diverse industries</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">MORE ABOUT US</span>
+            <h2 class="about-title">Welcome to Shineinfo Placement Solutions</h2>
+            <p class="about-description">Our website offers easy navigation to explore our comprehensive services dedicated to fulfilling your
+              staffing needs. Whether you are an employer seeking skilled professionals or a job seeker looking for
+              promising opportunities, we ensure a seamless experience</p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Personalized Recruitment Services</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Strategic Talent Acquisition</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Efficient Workforce Management</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Streamlined Recruitment for Your Success</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Empower Your Career Journey</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Connecting Top Talent with Opportunities</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    <img src="https://res.cloudinary.com/dhf7l1qte/image/upload/v1751121695/Screenshot_2025-06-28_201020_pxp0j3.png" alt="CEO Profile" class="profile-image">
+                    <div>
+                      <h4 class="profile-name">Shanthi Pallavi V</h4>
+                      <p class="profile-position">CEO &amp; Founder</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Call us anytime</p>
+                      <p class="contact-number">+91 9347795168</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="https://res.cloudinary.com/dhf7l1qte/image/upload/v1751122890/22827_tl37jn.jpg" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="https://res.cloudinary.com/dhf7l1qte/image/upload/v1751122990/22864_sv2spf.jpg" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              <div class="experience-badge floating">
+                <h3>15+ <span>Years</span></h3>
+                <p>Of experience in business service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="stats-hero row align-items-center mb-5">
+          <div class="col-lg-7 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+            <h3 class="headline mb-3">Explore Our Comprehensive Staffing Solutions</h3>
+            <p class="lead"> Our expert team is committed to providing personalized solutions tailored to your unique
+              requirements, enhancing workforce productivity and growth.</p>
+          </div>
+          <div class="col-lg-5 text-lg-end text-center" data-aos="zoom-in" data-aos-delay="300">
+            <div class="stats-rating d-inline-flex align-items-center py-3 px-4 shadow-sm">
+              <img src="{% static 'assets/img/about/about-1.webp' %}" class="img-fluid stats-rating-img me-3" alt="User Group" width="64" height="48">
+              <div>
+                <div class="rating-score d-flex align-items-center mb-1">
+                  <span class="fs-5 fw-semibold me-2">4.8/5</span>
+                  <span class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                </div>
+                <div class="user-feedback small">Based on 70+ unique user reviews</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-counters row gy-4 justify-content-center">
+          <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <article class="stats-counter-card">
+              <div class="counter-value mb-1">
+                <span data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="1.5" class="purecounter"></span>K+
+              </div>
+              <small class="label">Pemanant Staffing</small>
+            </article>
+          </div>
+          <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <article class="stats-counter-card">
+              <div class="counter-value mb-1">
+                <span data-purecounter-start="0" data-purecounter-end="34" data-purecounter-duration="1.5" class="purecounter"></span>K+
+              </div>
+              <small class="label">Contract Staffing</small>
+            </article>
+          </div>
+          <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <article class="stats-counter-card">
+              <div class="counter-value mb-1">
+                <span data-purecounter-start="0" data-purecounter-end="97" data-purecounter-duration="1.5" class="purecounter"></span>%
+              </div>
+              <small class="label">Executive Search</small>
+            </article>
+          </div>
+          <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+            <article class="stats-counter-card">
+              <div class="counter-value mb-1">
+                <span data-purecounter-start="0" data-purecounter-end="99.96" data-purecounter-duration="1.5" class="purecounter"></span>%
+              </div>
+              <small class="label">Project Based Hiring</small>
+            </article>
+          </div>
+        </div><!-- End stats counters -->
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="service-item">
+              <span class="service-icon rounded-circle">
+                <i class="bi bi-palette"></i>
+              </span>
+              <h3>
+                <a href="#services">
+                  Personalized  <span>Recruitment Services</span>
+                </a>
+              </h3>
+              <p>
+                 Our recruitment services are tailored to connect
+                  employers with the right candidates efficiently. We
+                  understand your specific needs and provide solutions that
+                  enhance your hiring process.
+              </p>
+              <a href="#services" class="card-action rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <article class="service-item">
+              <span class="service-icon rounded-circle">
+                <i class="bi bi-gem"></i>
+              </span>
+              <h3>
+                <a href="#services">
+                  Strategic  <span>Talent Acquisition</span>
+                </a>
+              </h3>
+              <p>
+                 At Shineinfo Placements Hub, we specialize in talent acquisition
+                strategies that align with your business goals. Our data-driven
+                approach ensures you attract and retain the best talent, enhancing
+                your workforce productivity and growth.
+              </p>
+              <a href="#services" class="card-action rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="service-item">
+              <span class="service-icon rounded-circle">
+                <i class="bi bi-megaphone"></i>
+              </span>
+              <h3>
+                <a href="#services">
+                  Efficient <span>Workforce Management</span>
+                </a>
+              </h3>
+              <p>
+                At Sineinfo Placements Hub, we specialize in workforce management to
+                ensure your organization has the right people in the right roles. Our
+                data-driven insights and ongoing support help you make informed
+                staffing decisions and enhance productivity.
+              </p>
+              <a href="#services" class="card-action rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <article class="service-item">
+              <span class="service-icon rounded-circle">
+                <i class="bi bi-code-slash"></i>
+              </span>
+              <h3>
+                <a href="#services">
+                  Streamlined  <span>Recruitment</span>
+                </a>
+              </h3>
+              <p>
+                At Shineinfo Placements Hub, we simplify the
+                recruitment process to connect you with the best
+                talent. Our approach ensures efficiency and
+                precision, saving you time and resources while
+                enhancing your team’s capabilities.
+              </p>
+              <a href="#services" class="card-action rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article class="service-item">
+              <span class="service-icon rounded-circle">
+                <i class="bi bi-graph-up"></i>
+              </span>
+              <h3>
+                <a href="#services">
+                  Empower Your  <span>Career Journey</span>
+                </a>
+              </h3>
+              <p>
+                At Shineinfo Placements Hub, we connect ambitious job
+                seekers with leading organizations. Our expert team is
+                dedicated to providing personalized solutions, ensuring
+                you find the right opportunities to enhance your career
+                growth.
+
+              </p>
+              <a href="#services" class="card-action rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <article class="service-item">
+              <span class="service-icon rounded-circle">
+                <i class="bi bi-camera-video"></i>
+              </span>
+              <h3>
+                <a href="#services">
+                  Connecting  <span>Top Talent</span>
+                </a>
+              </h3>
+              <p>
+                At Shineinfo Placements Hub, we specialize in bridging
+                the gap between skilled professionals and leading
+                organizations. Our mission is to provide personalized
+                staffing solutions that drive success and growth.
+
+              </p>
+              <a href="#services" class="card-action rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Alt Services Section -->
+    <section id="alt-services" class="alt-services section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <h4> Qualified Candidates</h4>
+              </div>
+              <div class="card-body">
+                <p>Gain access to a vast network of skilled
+                    professionals ready to meet your specific
+                    needs. Our extensive database ensures you
+                    find the right fit for your organization.</p>
+                <div class="feature-image">
+                  <img src="{% static 'assets/img/services/services-1.webp' %}" alt="Security Services" class="img-fluid">
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card featured" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <h4> Streamlined Process</h4>
+              </div>
+              <div class="card-body">
+                <p> Our efficient recruitment process saves you
+                    valuable time and resources, allowing you to
+                    focus on your core business while we handle
+                    the hiring.</p>
+                <div class="feature-image">
+                  <img src="{% static 'assets/img/services/services-2.webp' %}" alt="Technology Solutions" class="img-fluid">
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <h4> Personalized Support</h4>
+              </div>
+              <div class="card-body">
+                <p> Receive dedicated assistance from our
+                    expert team throughout the recruitment
+                    journey, ensuring a smooth and successful
+                    hiring experience tailored to your
+                    requirements.
+                  </p>
+                <div class="feature-image">
+                  <img src="{% static 'assets/img/services/services-3.webp' %}" alt="Innovation Services" class="img-fluid">
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-puzzle"></i>
+                </div>
+                <h4>Enhanced Branding</h4>
+              </div>
+              <div class="card-body">
+                <p>We help you build a strong
+                  employer brand that attracts top
+                  talent. A compelling brand image
+                  is essential for standing out in a
+                  competitive job market.</p>
+                <div class="feature-image">
+                  <img src="{% static 'assets/img/services/services-4.webp' %}" alt="Strategic Planning" class="img-fluid">
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div><!-- /Service Card -->
+
+        </div>
+      </div>
+    </section><!-- /Alt Services Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Benefits of Talent Acquisition</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="features-intro">
+              <h2> Strategic Insights</h2>
+              <p>Our data-driven approach
+                  provides insights that improve
+                  retention rates. We analyze
+                  trends and feedback to help you
+                  create a workplace that
+                  employees love</p>
+              <div class="highlights-grid">
+                <div class="highlight-item">
+                  <div class="highlight-number">99.9%</div>
+                  <div class="highlight-text">Uptime Guarantee</div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-number">24/7</div>
+                  <div class="highlight-text">Expert Support</div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-number">500+</div>
+                  <div class="highlight-text">Satisfied Clients</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="featured-image-container">
+              <img src="{% static 'assets/img/features/features-3.webp' %}" alt="Digital Solutions" class="img-fluid">
+              <div class="floating-badge">
+                <i class="bi bi-award"></i>
+                <span>Industry Leader</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-grid">
+          <div class="row g-4">
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+              <div class="feature-box text-center">
+                <div class="feature-icon-wrapper">
+                  <i class="bi bi-lightning-charge"></i>
+                </div>
+                <h4> Customized Plans</h4>
+                <p>We develop tailored talent
+                    acquisition plans that align with
+                    your specific business goals. Our
+                    personalized approach ensures
+                    that you find the right fit for your
+                    team.
+                    </p>
+                <div class="progress-indicator">
+                  <div class="progress-bar" style="width: 95%;"></div>
+                </div>
+                <span class="progress-label">95% Efficiency</span>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+              <div class="feature-box text-center">
+                <div class="feature-icon-wrapper">
+                  <i class="bi bi-shield-shaded"></i>
+                </div>
+                <h4> Boost Productivity</h4>
+                <p> Our effective workforce planning
+                  strategies lead to improved productivity,
+                  ensuring that your organization operates
+                  at its best. Discover how we can help you
+                  achieve your goals.</p>
+                <div class="progress-indicator">
+                  <div class="progress-bar" style="width: 100%;"></div>
+                </div>
+                <span class="progress-label">100% Secure</span>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+              <div class="feature-box text-center">
+                <div class="feature-icon-wrapper">
+                  <i class="bi bi-layers"></i>
+                </div>
+                <h4> Data-Driven Insights</h4>
+                <p>Utilize our data-driven insights to make
+                  informed staffing decisions. We analyze
+                  workforce metrics to help you optimize
+                  your team and adapt to market changes.</p>
+                <div class="progress-indicator">
+                  <div class="progress-bar" style="width: 88%;"></div>
+                </div>
+                <span class="progress-label">88% Compatibility</span>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+              <div class="feature-box text-center">
+                <div class="feature-icon-wrapper">
+                  <i class="bi bi-graph-up"></i>
+                </div>
+                <h4> Ongoing Support</h4>
+                <p> We provide continuous support to help
+                  you adapt to changing workforce
+                  needs. Our team is dedicated to
+                  ensuring your organization has the
+                  right talent at all times</p>
+                <div class="progress-indicator">
+                  <div class="progress-bar" style="width: 92%;"></div>
+                </div>
+                <span class="progress-label">92% Accuracy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="advanced-features-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+              <h3>Initial Consultation</h3>
+              <p>We discuss your specific
+                  needs to tailor our
+                  recruitment strategy
+                  effectively.</p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+              <div class="advanced-feature-card">
+                <div class="feature-header">
+                  <div class="feature-number">01</div>
+                  <div class="feature-status-badge enterprise">Enterprise</div>
+                </div>
+                <div class="feature-content">
+                  <h5>Automated Workflow Engine</h5>
+                  <p>Streamline complex business processes with intelligent automation that adapts to your organizational needs.</p>
+                  <ul class="feature-benefits">
+                    <li><i class="bi bi-check-circle"></i> Process Optimization</li>
+                    <li><i class="bi bi-check-circle"></i> Error Reduction</li>
+                  </ul>
+                </div>
+                <div class="feature-icon-bg">
+                  <i class="bi bi-diagram-3"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+              <div class="advanced-feature-card">
+                <div class="feature-header">
+                  <div class="feature-number">02</div>
+                  <div class="feature-status-badge premium">Premium</div>
+                </div>
+                <div class="feature-content">
+                  <h5>Real-time Collaboration</h5>
+                  <p>Enable seamless teamwork with synchronized data sharing and instant communication across all platforms.</p>
+                  <ul class="feature-benefits">
+                    <li><i class="bi bi-check-circle"></i> Live Updates</li>
+                    <li><i class="bi bi-check-circle"></i> Team Sync</li>
+                  </ul>
+                </div>
+                <div class="feature-icon-bg">
+                  <i class="bi bi-people"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="500">
+              <div class="advanced-feature-card">
+                <div class="feature-header">
+                  <div class="feature-number">03</div>
+                  <div class="feature-status-badge standard">Standard</div>
+                </div>
+                <div class="feature-content">
+                  <h5>Predictive Intelligence</h5>
+                  <p>Leverage machine learning algorithms to forecast trends and make data-driven strategic decisions.</p>
+                  <ul class="feature-benefits">
+                    <li><i class="bi bi-check-circle"></i> Trend Analysis</li>
+                    <li><i class="bi bi-check-circle"></i> Risk Assessment</li>
+                  </ul>
+                </div>
+                <div class="feature-icon-bg">
+                  <i class="bi bi-cpu"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="600">
+              <div class="advanced-feature-card">
+                <div class="feature-header">
+                  <div class="feature-number">04</div>
+                  <div class="feature-status-badge coming-soon">Coming Soon</div>
+                </div>
+                <div class="feature-content">
+                  <h5>Cloud Scalability</h5>
+                  <p>Dynamic resource allocation ensures optimal performance during peak usage while maintaining cost efficiency.</p>
+                  <ul class="feature-benefits">
+                    <li><i class="bi bi-check-circle"></i> Auto Scaling</li>
+                    <li><i class="bi bi-check-circle"></i> Cost Optimization</li>
+                  </ul>
+                </div>
+                <div class="feature-icon-bg">
+                  <i class="bi bi-cloud-arrow-up"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Mission & Vision</h2>
+        <p><span style="color: black; font-weight: bold;">Mission:</span> be a trusted partner in manpower solutions, ensuring value-driven recruitment services that exceed client
+          expectations.<br><span style="color: black; font-weight: bold;"> Vision: </span>To become a leading force in building dynamic</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Permanant Staffing</li>
+            <li data-filter=".filter-product">Contract Staffing</li>
+            <li data-filter=".filter-branding">Executive Search</li>
+            <li data-filter=".filter-books">Project Based Hiring</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-1.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751198646/businesspeople-standing-together-office_t9wvff.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Permanant Staffing</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-10.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199185/19616_f0s9ae.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Contract Staffing</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-7.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199495/2150040188_r2pjeb.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Executive Search</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-4.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751200004/resume-genius-72D3z_LfrQA-unsplash_iberzi.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Project Based Hiring</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-2.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199024/portrait-happy-woman-with-digital-tablet_lin3zb.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Permanant Staffing</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href=" {% static 'assets/img/portfolio/portfolio-11.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199188/serious-businessman-businesswoman-signing-contract_aq1tk5.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Contract Staffing</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-8.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199494/62452_kk7moy.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Executive Search</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-5.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199996/julia-potter-T7XG8QAn0Mw-unsplash_xwegxa.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Project Based Hiring</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-3.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751198887/3416_rmkexd.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Permanant Staffing</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-12.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199184/14810_myeg15.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Contract Staffing</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-9.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199496/3862_e0wzmb.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Executive Search</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <a href="{% static 'assets/img/portfolio/portfolio-6.webp' %}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751199995/fotos-3RwtiV1CUj4-unsplash_ez7szh.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Project Based Hiring</a></h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Industries We Serve </h2>
+        <p> At Shineinfo Placement Solutions, we
+          provide manpower solutions across a wide
+          range of industries, understanding the
+          unique hiring requirements and talent
+          challenges of each sector. Our domain
+          specific recruitment expertise ensures
+          that clients receive skilled and reliable
+          professionals for every role</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center mb-5">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201503/mohammad-rahmani-_Fx34KeqIEw-unsplash_ar0fxa.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge"> Information Technology (IT)</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Olivia Martinez</h4>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201501/homa-appliances-_XDK4naBbgw-unsplash_ewwbwz.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge">Manufacturing & Engineering</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>James Wilson</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Pellentesque habitant morbi tristique.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201501/glsun-mall-WNX6uk-1LV4-unsplash_an881k.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge"> Healthcare & Pharmaceuticals</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Sophia Johnson</h4>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201499/umesh-soni-A4CCLJYVflo-unsplash_po2aqa.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge">BFSI</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Benjamin Davis</h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+
+        </div>
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201505/kenjiro-yagi-ukO-I2gIxdI-unsplash_jeilj4.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge"> FMCG & Retail</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Olivia Martinez</h4>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201497/shutter-speed-BQ9usyzHx_w-unsplash_mkwoli.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge"> Logistics & Supply Chain</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>James Wilson</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Pellentesque habitant morbi tristique.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-card">
+              <div class="profile-image">
+                <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751201499/etienne-girardet-sgYamIzhAhg-unsplash_stszfh.jpg" class="img-fluid" alt="" loading="lazy">
+                <div class="role-badge">Construction & Infrastructure</div>
+                <!-- <div class="social-icons">
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4>Sophia Johnson</h4>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+              </div>
+            </div><!-- End Team Card -->
+          </div>
+        </div>
+      </div>
+    </section><!-- /Team Section -->
+
+
+
+    <!-- Our Recruitment Process-->
+
+    <section id="alt-services2" class="alt-services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Recruitment Process</h2>
+        <p> At Shineinfo Placement Solutions, we
+          provide manpower solutions across a wide
+          range of industries, understanding the
+          unique hiring requirements and talent
+          challenges of each sector. Our domain
+          specific recruitment expertise ensures
+          that clients receive skilled and reliable
+          professionals for every role</p>
+      </div><!-- End Section Title -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <h4>  Understanding Client Requirement</h4>
+              </div>
+              <div class="card-body">
+                <p>Gain access to a vast network of skilled
+                    professionals ready to meet your specific
+                    needs. Our extensive database ensures you
+                    find the right fit for your organization.</p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205093/sebastian-herrmann-NbtIDoFKGO8-unsplash_ns69rf.jpg" alt="Security Services" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card featured" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <h4>  Talent Sourcing & Screening</h4>
+              </div>
+              <div class="card-body">
+                <p> Our efficient recruitment process saves you
+                    valuable time and resources, allowing you to
+                    focus on your core business while we handle
+                    the hiring.</p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205232/sebastian-herrmann-n4_Q2dDYy80-unsplash_t1ntb6.jpg" alt="Technology Solutions" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <h4>Candidate Shortlisting</h4>
+              </div>
+              <div class="card-body">
+                <p> Receive dedicated assistance from our
+                    expert team throughout the recruitment
+                    journey, ensuring a smooth and successful
+                    hiring experience tailored to your
+                    requirements.
+                  </p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205349/fotos-SfroZlY_DAU-unsplash_bbdfpq.jpg" alt="Innovation Services" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-puzzle"></i>
+                </div>
+                <h4>Interview Coordination</h4>
+              </div>
+              <div class="card-body">
+                <p>We help you build a strong
+                  employer brand that attracts top
+                  talent. A compelling brand image
+                  is essential for standing out in a
+                  competitive job market.</p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205417/mapbox-zU6tCBzO0Ig-unsplash_e72kix.jpg" alt="Strategic Planning" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+        </div>
+      </div>
+
+      <div class="container mt-5 " data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <h4> Offer & Negotiation</h4>
+              </div>
+              <div class="card-body">
+                <p>Gain access to a vast network of skilled
+                    professionals ready to meet your specific
+                    needs. Our extensive database ensures you
+                    find the right fit for your organization.</p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205515/radission-us-_XeQ8XEWb4Q-unsplash_hslqag.jpg" alt="Security Services" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card " data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <h4>  Onboarding Support</h4>
+              </div>
+              <div class="card-body">
+                <p> Our efficient recruitment process saves you
+                    valuable time and resources, allowing you to
+                    focus on your core business while we handle
+                    the hiring.</p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205701/resume-genius-IESB4iFVuzA-unsplash_btit5n.jpg" alt="Technology Solutions" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+          <div class="col-lg-6 col-xl-3">
+            <div class="service-card featured" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <h4>Post-Placement Follow-up</h4>
+              </div>
+              <div class="card-body">
+                <p> Receive dedicated assistance from our
+                    expert team throughout the recruitment
+                    journey, ensuring a smooth and successful
+                    hiring experience tailored to your
+                    requirements.
+                  </p>
+                <div class="feature-image">
+                  <img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751205819/charanjeet-dhiman-mHusyBu4bxM-unsplash_az7jri.jpg" alt="Innovation Services" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div><!-- /Service Card -->
+
+          <!-- <div class="col-lg-6 col-xl-3">
+            <div class="service-card featured" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card-header">
+                <div class="icon-box">
+                  <i class="bi bi-puzzle"></i>
+                </div>
+                <h4>Enhanced Branding</h4>
+              </div>
+              <div class="card-body">
+                <p>We help you build a strong
+                  employer brand that attracts top
+                  talent. A compelling brand image
+                  is essential for standing out in a
+                  competitive job market.</p>
+                <div class="feature-image">
+                  <img src="{% static 'assets/img/services/services-4.webp' %}" alt="Strategic Planning" class="img-fluid">
+                </div>
+              </div>
+              <!-- <div class="card-footer">
+                <a href="#" class="btn-explore">
+                  Explore Service
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div> -->
+            <!-- </div>
+          </div> -->
+          <!-- /Service Card -->
+
+        </div>
+      </div>
+    
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section mt-5">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Clients</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+
+        <div class="clients-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 6000,
+              "autoplay": {
+                "delay": 1,
+                "disableOnInteraction": false
+              },
+              "centeredSlides": true,
+              "slideToClickedSlide": true,
+              "slidesPerView": "auto",
+              "spaceBetween": 40,
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                },
+                "640": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "992": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 40
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-1.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-2.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-3.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-4.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-5.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-6.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-1.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-2.web' %}p" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-3.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-4.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-5.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="{% static 'assets/img/clients/clients-6.webp' %}" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+  
+
+    </section><!-- /Alt Services Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+1 5589 55488 55</p>
+                  <p>+1 6678 254445 41</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>info@example.com</p>
+                  <p>contact@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename"><img src="https://res.cloudinary.com/dtlt4zkth/image/upload/v1751203145/Logo_vngjgx.png" style="width:200px;"></span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Shine Info Placement Solutions</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://www.linkedin.com/in/kalyankorapati/" target="_blank">Kalyan Korapati - 9390095214</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js'%}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js '%}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+  {% render_block "js" %}
+</body>
+
+</html>
