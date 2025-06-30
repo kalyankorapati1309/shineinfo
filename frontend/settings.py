@@ -58,9 +58,7 @@ INSTALLED_APPS = [
     'djangocms_style',
     'djangocms_googlemap',
     'djangocms_video',
-    'frontend',
-    'djangocms_versioning',
-    'djangocms_alias',
+    'frontend'
 ]
 
 MIDDLEWARE = [
