@@ -20,6 +20,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+import dj_database_url
+DATABASES = {
+    'default': dj_database_url.config(default=config('shine_django_db_fp6q'))
+}
 
 from pathlib import Path
 
