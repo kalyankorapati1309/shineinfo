@@ -13,7 +13,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 from decouple import config
-SECRET_KEY = config('rvf_&x@4y_iw00p4oyo_^vmu)l%8%6h6*qd%!+ubf50u(223%3')
+SECRET_KEY = config('SECRET_KEY', default='rvf_&x@4y_iw00p4oyo_^vmu)l%8%6h6*qd%!+ubf50u(223%3')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
