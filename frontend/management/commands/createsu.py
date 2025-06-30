@@ -8,7 +8,7 @@ class Command(BaseCommand):
         User = get_user_model()
         username = 'kalyan'
         password = 'Samgrace@1309'  # Change this to your secure password
-        email = 'your@email.com'
+        email = 'kalyankorapati1309@gmail.com'
 
         if not User.objects.filter(username=username).exists():
             User.objects.create_superuser(username=username, email=email, password=password)
