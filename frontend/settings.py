@@ -16,6 +16,9 @@ SECRET_KEY = config('SECRET_KEY', default='rvf_&x@4y_iw00p4oyo_^vmu)l%8%6h6*qd%!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True  # Set to False for production on Render
 
+CMS_TOOLBAR_HIDE = True
+CMS_TOOLBAR_HIDE_FUNC = lambda request: True
+
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'shineinfo-placements-solutions.onrender.com', '*.onrender.com']
 
 # Application definition
@@ -77,6 +80,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'frontend.urls'
+
 
 TEMPLATES = [
     {
